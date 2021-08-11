@@ -23,6 +23,8 @@ services:
     # The official v2 Traefik docker image
     image: traefik:v2.4.13
     # Enables the web UI and tells Traefik to listen to docker
+    environment:
+      - TZ=Europe/Berlin
     ports:
       - "80:80"
       - "443:443"
