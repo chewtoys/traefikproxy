@@ -21,7 +21,7 @@ folders: ## creation des dossier
 	@mkdir letsencrypt
 
 .PHONY: linter
-linter: node_modules ## Scripts Linter *
+linter: node_modules ### Scripts Linter
 ifeq ($(COMMAND_ARGS),all)
 	@make linter readme -i
 else ifeq ($(COMMAND_ARGS),readme)
