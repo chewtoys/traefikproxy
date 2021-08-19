@@ -1,5 +1,5 @@
 include make/general/Makefile
-NETWORK := proxynetwork
+NETWORK := proxylampy
 STACK   := proxy
 include make/docker/Makefile
 
