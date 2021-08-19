@@ -1,5 +1,5 @@
 {
-  "name": "@koromerzhin/traefikproxy",
+  "name": "@koromerzhin/traefik",
   "version": "1.0.0",
   "description": "Docker de configuration pour lancer TRAEFIK",
   "license": "MIT",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koromerzhin/traefikproxy.git"
+    "url": "git+https://github.com/koromerzhin/traefik.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/koromerzhin/traefikproxy/issues"
+    "url": "https://github.com/koromerzhin/traefik/issues"
   },
-  "homepage": "https://github.com/koromerzhin/traefikproxy#readme",
+  "homepage": "https://github.com/koromerzhin/traefik#readme",
   "scripts": {
     "linter-markdown": "markdownlint",
     "contributors": "all-contributors",

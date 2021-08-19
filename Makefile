@@ -12,13 +12,8 @@ endif
 
 .PHONY: install
 install: node_modules ## Installation application
-	@make folders -i
 	@make docker image-pull -i
 	@make docker deploy -i
-
-.PHONY: folders
-folders: ## creation des dossier
-	@mkdir letsencrypt
 
 .PHONY: linter
 linter: node_modules ### Scripts Linter
